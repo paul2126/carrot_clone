@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+html {
+  min-width: 980px;
+  height: 100%;
+}
+
+.minji_main {
+  width: 100%;
+  justify-content: center; /*좌우 정렬*/
+  align-items: center; /*위아래 정렬*/
+  display: flex;
+  flex-direction: row;
+}
+
+.minji_main .sub_title {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.minji_main .main_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.minji_main .service_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.minji_main div.main_buttons {
+  margin-top: 30px;
+}
+
+.minji_main .main_button {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  display: inline-block; /*default: block*/
+}
+
+.minji_main .main_button:hover {
+  background-color: lightgray;
+}
+
+.minji_main .main_image {
+  width: 655px;
+  height: 750px;
+}
+
+#footer_root {
+  border-top: 1px solid lightgray;
+  border-top-width: 1px;
+}
