@@ -55,7 +55,7 @@ body {
 .button:hover {
   background-color: gainsboro;
 }
-a {
+a.main-button {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
